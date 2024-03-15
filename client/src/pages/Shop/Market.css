@@ -1,0 +1,30 @@
+.bg-images {
+    width: 600px;
+    height: 300px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image:
+        url('https://i.ibb.co/4S72wL9/image.png');
+
+}
+
+.bg-images:nth-child(2) {
+
+    background-image: url('https://i.ibb.co/7RhgwCm/image.png');
+}
+
+.bg-images:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+
+@media screen and (max-width:468px) {
+    .bg-images {
+        width: 300px;
+        background-size: contain;
+        height: 150px;
+    }
+}

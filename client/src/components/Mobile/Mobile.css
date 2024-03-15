@@ -1,0 +1,38 @@
+
+    
+    
+  .mobile-dash-footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+      background: white;
+  }
+  .mobile-dash-footer a{
+      text-decoration: none;
+  }
+  .mobile-dash-footer .single {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-right: 0.1px solid var(--light-white);
+      color: #E55472;
+      padding: 0.7rem 0;
+  }
+  .mobile-dash-footer .single.active {
+      background: #E55472;
+      color: white;
+  }
+  .mobile-dash-footer .single.active {
+      background: #E55472;
+      color: white;
+  }
+  .mobile-dash-footer small {
+      font-size: 0.5rem;
+      text-align: center;
+  }

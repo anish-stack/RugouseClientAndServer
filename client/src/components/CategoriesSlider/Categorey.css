@@ -1,0 +1,124 @@
+.categories-cards {
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.categories-imgs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.categories-imgs img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-name-cta {
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.product-name-cta span {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #EBE5E1;
+    padding: 0.5rem 5.3rem;
+    z-index: 9;
+    color: #000;
+    border-radius: 44px;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    -ms-border-radius: 44px;
+    -o-border-radius: 44px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.swiper-button-prev {
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url("./arrow-left-s-line.png");
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "";
+}
+
+.swiper-button-next {
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+
+    background-image: url("./arrow-right-s-line.png");
+}
+
+.swiper-button-next:hover {
+    background-color: #E55472;
+
+}
+.swiper-button-prev:hover {
+    background-color: #E55472;
+
+}
+.swiper-button-prev :hover {
+    background-color: #E55472;
+}
+
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background-color: #E55472;
+}
+
+@media screen and (max-width:768px) {
+    .product-name-cta span {
+        font-size: 14px;
+        font-weight: 700;
+        background-color: #EBE5E1;
+        padding: 0.5rem 1.3rem;
+        z-index: 9;
+        color: #000;
+        border-radius: 44px;
+        -webkit-border-radius: 44px;
+        -moz-border-radius: 44px;
+        -ms-border-radius: 44px;
+        -o-border-radius: 44px;
+    }
+}

@@ -1,0 +1,25 @@
+.signIn .form.textarea{
+    padding: 0rem 1rem;
+}
+
+.signIn .form textarea{
+    width: 100%;
+    background: #F7F7F7;
+    padding: 1rem 0.5rem ;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+.signIn .form textarea:focus{
+    outline: 1px solid #d63384;
+}
+.signIn .form textarea::placeholder{
+    color: #999999;
+    font-size: 1rem;
+}
+
+
+.contact-icons .single{
+    text-align:  center;
+}

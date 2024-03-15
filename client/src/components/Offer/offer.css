@@ -1,0 +1,61 @@
+.offer-section{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://i.ibb.co/VxRtF8B/image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.offer-container{
+    padding: 1.2rem ;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.ofer-show{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.offer-content{
+    padding: 2.2rem 3rem;
+}
+.offer-content h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+}
+.offer-content span {
+    color: #DB2A19;
+}
+.offer-button{
+    padding: 10px;
+}
+.offer-button a{
+    padding: 1.2rem 4rem;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1.2rem;
+}
+
+@media screen and (max-width:768px) {
+    .ofer-show {
+       flex-direction: column;
+    }
+    .offer-content {
+        padding: 1.2rem 1rem;
+    }
+    .offer-content h3 {
+      
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fff;
+    }
+}

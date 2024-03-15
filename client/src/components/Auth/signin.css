@@ -1,0 +1,103 @@
+.container-gap{
+    padding: 2rem 8rem;
+}
+.subhead{
+    text-align: center;
+    padding: 2rem 0.5rem;
+}
+.subhead h2{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.grid-50{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+}
+.signIn .form input{
+    width: 100%;
+    background: #F7F7F7;
+    padding: 1rem 0.5rem ;
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+}
+.signIn .form input:focus{
+    outline: 1px solid #d63384;
+}
+.signIn .form input::placeholder{
+    color: #999999;
+    font-size: 1rem;
+}
+.text-grid{
+    display: grid;   
+    place-items: center;
+    align-content: center;
+    gap: 0.5rem;
+    padding: 1rem 3rem;
+}
+.text-grid h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+.text-grid p{
+    text-transform: uppercase;
+    /* font-size: rem; */
+    text-align: center;
+}
+.upper a{
+    color: black;
+}
+
+.pink-btn{
+    padding: 0.7rem 1.5rem;
+    color: white;
+    text-transform: uppercase;
+    background: #E55472;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 1rem 0rem;
+}
+
+@media only screen and (max-width: 1000px){
+    .container-gap{
+        padding: 2rem 3rem;
+    }
+    .text-grid {
+        padding: 1rem 2rem;
+    }
+}
+@media only screen and (max-width: 750px){
+    .grid-50 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container-gap {
+        padding: 2rem 2rem;
+    }
+    .text-grid {
+        display: grid;
+        place-items: center;
+        align-content: center;
+        gap: 0.5rem;
+        padding: 1rem 1rem;
+        margin-top: 5rem;
+    }
+}
+@media only screen and (max-width: 550px){
+    .text-grid h4 {
+        font-size: 1.2rem;
+    }
+    .text-grid p {
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+}
+
+
+
+
+

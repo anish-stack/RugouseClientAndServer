@@ -1,0 +1,144 @@
+.top-cart {
+    position: fixed;
+    right: -50%;
+    transition: right 0.3s linear;
+    width: 300px;
+    z-index: 9999;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    min-height: 500px;
+    -webkit-transition: right 0.3s linear;
+    -moz-transition: right 0.3s linear;
+    -ms-transition: right 0.3s linear;
+    -o-transition: right 0.3s linear;
+}
+
+.small-cart {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+.showcart{
+    right: 0%!important;
+}
+
+.cart-headeing {
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: 700;
+    border-bottom: 1px solid;
+}
+
+.cart-items {
+    min-height: 400px;
+    padding: 0.6rem 0.5rem;
+}
+
+.items {
+    display: grid;
+    gap: 1rem;
+    text-align: center;
+    border: 1px solid;
+    place-items: center;
+    max-width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-img img {
+    width: 100%;
+    object-fit: contain;
+    height: 100%;
+}
+
+.increase-dcrease-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counters {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 0.52rem;
+}
+
+.increase button,
+.Dcrease button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    width: 20px;
+    background-color: transparent;
+
+    border-radius: 50%;
+    font-size: 1.5rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.removebtn {
+    background-color: rgba(255, 0, 0, 0.707);
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    height: 30px;
+}
+
+.prices {
+    font-size: 0.7rem;
+}
+
+.removebtn span {
+    color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.CheckOut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.CheckOut button {
+    background-color: rgba(255, 0, 0, 0.738);
+}
+
+.CheckOut a {
+    border-radius: 7px;
+    padding: 0.6rem 1.5rem;
+    background-color: rgba(64, 255, 0, 0.738);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+@media screen and (max-width:768px) {
+    .top-cart{
+        right: -100%;
+        min-height: 350px;
+    }
+    .cart-items {
+        min-height: 350px;
+        padding: 0.6rem 0.5rem;
+    }
+}

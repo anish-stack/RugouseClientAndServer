@@ -1,0 +1,40 @@
+@media screen and (max-width:768px) {
+    .namess{
+        font-size: 12px;
+    }
+    .nav {
+        position: absolute;
+        top: 39%;
+        z-index: 9;
+        line-height: 4;
+        background: white;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        left: -100%;
+        /* background: antiquewhite; */
+    }
+    .dropdown {
+        align-items: center;
+        z-index: 2;
+        justify-content: center;
+        top: 11%;
+        left: 42%;
+        line-height: 2;
+        width: 259px;
+        border-top: 2px solid #E55472;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        position: absolute;
+    }
+}
+.show{
+    left: 50%!important;
+}
+.topTwo{
+    top: 296%!important;
+}
+.unShow{
+    left: -100%!important;
+
+}
